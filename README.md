@@ -1,16 +1,37 @@
 ## Hi there 👋
 
-<!--
-**Jonadeals/jonadeals** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
 
-Here are some ideas to get you started:
+const App = () => {
+  return (
+    <View style={styles.container}>
+      <StatusBar style="auto" />
+      <Text style={styles.title}>Jonadeals - Kuponat më të mirë</Text>
+      <Text style={styles.text}>Mirësevini në Jonadeals! Ofertat më të fundit do të shfaqen këtu.</Text>
+    </View>
+  );
+};
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#f5f5f5',
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 10,
+  },
+  text: {
+    fontSize: 18,
+    textAlign: 'center',
+  },
+});
+
+export default App;
+
+npm install -g expo-cli
