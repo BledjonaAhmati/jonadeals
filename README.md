@@ -32,6 +32,11 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+git clone https://github.com/jonadeals/jonadeals.git
+cd jonadeals
+npm install
+expo start
+
 
 
 
