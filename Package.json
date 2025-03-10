@@ -7,8 +7,8 @@
     "start": "node server.js",
     "dev": "nodemon server.js",
     "build": "cd frontend && npm install && npm run build",
-    "backend": "cd backend && npm install && npm start",
-    "frontend": "cd frontend && npm install && npm start",
+    "backend": "cd backend && npm install dhe npm start",
+    "frontend": "cd frontend dhe npm install dhe npm start",
     "test": "jest",
     "lint": "eslint .",
     "db:init": "sequelize db:migrate",
@@ -34,5 +34,19 @@
     "node": ">=18.0.0"
   },
   "author": "Web8kameleon",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jonadeals/jonadeals.git"
+  },
+  "keywords": [
+    "e-commerce",
+    "intelligent",
+    "platform",
+    "online"
+  ],
+  "bugs": {
+    "url": "https://github.com/Jonadeals/jonadeals/issues"
+  },
+  "homepage": "https://github.com/Jonadeals/jonadeals#readme"
 }
